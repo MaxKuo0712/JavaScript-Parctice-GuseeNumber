@@ -3,11 +3,9 @@ let answer, inputNumber, minNumber, maxNumber;
 minNumber = 0;
 maxNumber = 100;
 answer = Math.floor((Math.random() * 100 + 1));
-console.log(answer);
 
 do {
     inputNumber = window.prompt("終極密碼，請輸入"+ minNumber + "~" + maxNumber +"之間的數字");
-    console.log("Print1 : target: " + answer + ", input: " + inputNumber + ", min: " + minNumber + ", max: " + maxNumber);
     
     if (checkInput(inputNumber) == false) {
         continue;
