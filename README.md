@@ -1,2 +1,2 @@
-# JavaScript-Parctice-GuseeNumber
-JavaScript-Parctice-GuseeNumber
+# JavaScript-Parctice-GuessNumber
+JavaScript-Parctice-GuessNumber
